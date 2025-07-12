@@ -9,4 +9,4 @@ ENV WEBHOOK_URL=https://ai-automate-7vef.onrender.com
 
 EXPOSE 5678
 
-CMD ["n8n"]
+ENTRYPOINT ["/usr/local/bin/n8n"]
